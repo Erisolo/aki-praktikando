@@ -20,7 +20,8 @@ let config = {
         default: 'arcade', 
         arcade: { 
             gravity: { y: 400 }, 
-            debug: false 
+            OVERLAP_BIAS: 0,
+            debug: true
         } 
     }
 };
